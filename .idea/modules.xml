@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CommandExecuter/CommandExecuter.iml" filepath="$PROJECT_DIR$/CommandExecuter/CommandExecuter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HanuQuiz-Framework.iml" filepath="$PROJECT_DIR$/HanuQuiz-Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hanuquiz/hanuquiz.iml" filepath="$PROJECT_DIR$/hanuquiz/hanuquiz.iml" />
+    </modules>
+  </component>
+</project>
