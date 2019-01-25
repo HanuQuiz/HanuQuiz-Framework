@@ -41,7 +41,7 @@ public class SaveRegIdCommand extends Command {
 		String timeZone = tz.getID();
 		app.addParameter("TimeZone", timeZone);
 
-		String postURL = "http://apps.ayansh.com/HanuGCM/RegisterDevice.php";
+		String postURL = "https://apps.ayansh.com/HanuGCM/RegisterDevice.php";
 
 		URL url = new URL(postURL);
 		HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();

@@ -48,7 +48,7 @@ public class ValidateApplicationCommand extends Command {
 			Log.v(Application.TAG, "Validating for error 420");
 			String line = "";
 
-			URL url = new URL("http://apps.ayansh.com/HanuGCM/Validate.php");
+			URL url = new URL("https://apps.ayansh.com/HanuGCM/Validate.php");
 			HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
 			try{
 

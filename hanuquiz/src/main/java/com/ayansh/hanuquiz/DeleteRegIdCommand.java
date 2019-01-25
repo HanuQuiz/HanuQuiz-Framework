@@ -35,7 +35,7 @@ public class DeleteRegIdCommand extends Command {
 			Application app = Application.getApplicationInstance();
 			String packageName = app.context.getPackageName();
 
-			String postURL = "http://apps.ayansh.com/HanuGCM/UnRegisterDevice.php";
+			String postURL = "https://apps.ayansh.com/HanuGCM/UnRegisterDevice.php";
 
 			URL url = new URL(postURL);
 			HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
